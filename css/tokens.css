@@ -1,0 +1,109 @@
+/* ============================================================
+   DESIGN TOKENS
+   ============================================================ */
+:root {
+  /* Brand */
+  --ink: #14110F;
+  --cream: #F7F2E9;
+  --cream-soft: #EFE8D8;
+  --gold: #C9952C;
+  --gold-soft: #E8C97A;
+  --ash: #8A8378;
+  --ash-light: #C9C2B4;
+
+  /* Service-page energy colors */
+  --alert: #E0312B;
+  --alert-dark: #A8211D;
+  --alert-glow: rgba(224, 49, 43, 0.35);
+  --gold-deep: #8a6716;
+
+  /* Utility */
+  --signal: #25D366;
+  --signal-dark: #1DA851;
+  --white: #FFFFFF;
+
+  /* Type */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Space Mono', 'Courier New', monospace;
+
+  /* Layout */
+  --max-w: 1180px;
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  background: var(--cream);
+  color: var(--ink);
+}
+
+img { max-width: 100%; display: block; }
+a { text-decoration: none; color: inherit; }
+
+.container {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+/* Focus visibility — accessibility floor */
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ============================================================
+   WHATSAPP FLOATING / STICKY BUTTON (shared)
+   ============================================================ */
+.wa-fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--signal);
+  color: var(--white);
+  padding: 14px 20px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 15px;
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.45);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.wa-fab:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(37, 211, 102, 0.55);
+}
+.wa-fab svg { width: 22px; height: 22px; flex-shrink: 0; }
+
+@media (max-width: 640px) {
+  .wa-fab span { display: none; }
+  .wa-fab {
+    padding: 14px;
+    bottom: 16px;
+    right: 16px;
+  }
+}

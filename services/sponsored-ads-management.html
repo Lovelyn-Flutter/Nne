@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service — GrowthDesk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/service.css">
+</head>
+<body class="service-page">
+
+<div class="svc-topbar">
+  <div class="container svc-topbar__inner" id="svcTopbar"></div>
+</div>
+
+<!-- HERO -->
+<section class="svc-hero">
+  <div class="container svc-hero__grid">
+    <div>
+      <span class="svc-hero__badge" id="heroEyebrow"></span>
+      <h1 id="heroHeadline"></h1>
+      <p class="svc-hero__sub" id="heroSub"></p>
+      <ul class="svc-hero__bullets" id="heroBullets"></ul>
+      <a class="btn-wa-loud" id="heroWaBtn" target="_blank" rel="noopener"></a>
+    </div>
+    <div class="svc-hero__visual">
+      <div class="svc-hero__ring"></div>
+      <div class="svc-hero__phone">
+        <img id="heroVisualImg" src="" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="svc-stats">
+  <div class="container svc-stats__grid" id="statsGrid"></div>
+</div>
+
+<!-- TRANSFORMATION (shown only if a before/after image exists for this service) -->
+<section class="transform-section" id="transformSection">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-head__eyebrow">SEE IT IN ACTION</span>
+      <h2>Real results, not promises.</h2>
+    </div>
+    <div class="transform-grid" id="transformGrid"></div>
+    <p class="transform-caption">Actual client results — shared with permission</p>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="why-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-head__eyebrow">WHY CHOOSE US</span>
+      <h2>Built for results, not excuses.</h2>
+    </div>
+    <div class="why-grid" id="whyGrid"></div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews-section" id="reviewsSection">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-head__eyebrow">WHAT OUR CLIENTS SAY</span>
+      <h2>Real conversations. Real clients.</h2>
+      <p>Swipe to see more →</p>
+    </div>
+    <div class="reviews-strip" id="reviewsStrip"></div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-head__eyebrow">HOW IT WORKS</span>
+      <h2>From message to result.</h2>
+    </div>
+    <div class="how-grid" id="howGrid"></div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="svc-final-cta">
+  <div class="container">
+    <h2 id="finalCtaHeadline"></h2>
+    <p>Don't lose more time or money — let's sort this out today.</p>
+    <a class="btn-wa-loud" id="finalCtaBtn" target="_blank" rel="noopener"></a>
+    <p class="svc-final-cta__phone" id="finalCtaPhone"></p>
+  </div>
+</section>
+
+<footer class="svc-footer">
+  <div class="container">
+    <a class="back-home" href="../index.html">← Back to All Services</a>
+    <p id="footerBrand"></p>
+    <p id="footerPhone2"></p>
+  </div>
+</footer>
+
+<div id="stickyBarSlot"></div>
+<div id="fabSlot"></div>
+
+<script src="../js/data.js"></script>
+<script src="../js/helpers.js"></script>
+<script>window.SERVICE_SLUG = "sponsored-ads-management";</script>
+<script src="../js/service.js"></script>
+</body>
+</html>
