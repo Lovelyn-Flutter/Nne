@@ -1,6 +1,6 @@
 /* ============================================================
    HOME PAGE RENDER LOGIC
-   Reads everything from SITE (js/data.js) — edit data.js, not this.
+   Reads everything from SITE (js/data.js) - edit data.js, not this.
    ============================================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
