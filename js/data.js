@@ -137,16 +137,16 @@ const SITE = {
     {
       slug: "sponsored-ads-management",
       navLabel: "Sponsored Ads Management",
-      heroEyebrow: "TIRED OF MANAGING ADS YOURSELF?",
-      heroHeadline: "We Manage Your Ads Daily.\nYou Watch The Sales Come In.",
-      heroHighlight: "You Watch The Sales Come In.",
-      heroSub: "Full hands-on management of your ad campaigns — built, monitored, and optimized every day.",
+      heroEyebrow: "TIRED OF MANAGING YOUR ADS?",
+      heroHeadline: "We Manage Your Ads. \n You Focus On Growing Your Business.",
+      heroHighlight: "You Focus On Growing Your Business.",
+      heroSub: "Running successful ads takes time, strategy, and constant optimisation. We manage your campaigns from start to finish, helping you attract more customers while you focus on running your business.",
       whatsappMessage: "Hi, I'm interested in your Sponsored Ads Management service.",
       bullets: [
-        "Daily campaign monitoring",
-        "Budget & bid optimization",
-        "Creative testing",
-        "Weekly performance reports"
+        "Daily campaign management",
+        "Daily monitoring and optimisation",
+        "Smarter budget allocation",
+        "Clear performance reports"
       ],
       stats: [
         { value: "200+", label: "Campaigns Managed" },
@@ -155,10 +155,10 @@ const SITE = {
         { value: "100%", label: "Transparent Reporting" }
       ],
       howItWorks: [
-        { title: "Account Review", body: "We audit your current ad setup and goals." },
-        { title: "Campaign Build", body: "We structure campaigns for your budget." },
-        { title: "Daily Management", body: "We monitor, tweak, and optimize daily." },
-        { title: "Reporting", body: "Clear weekly updates on what's working." }
+        { title: "We Learn About Your Business", body: "We understand your goals, audience, and budget before building your strategy." },
+        { title: "We Build Your Campaigns", body: "We create well-structured campaigns designed to attract the right customers" },
+        { title: "We Optimise Every Day", body: "We monitor performance, adjust targeting, and improve results to maximise your return on ad spend." },
+        { title: "We Keep You Updated", body: "Receive clear reports and insights, so you always know how your campaigns are performing." }
       ],
       // Save screenshots as: ads-management-1.jpg, ads-management-2.jpg, ...
       reviews: ["ads-management-1.jpeg", "ads-management-2.jpeg", "ads-management-3.jpeg", "ads-management-4.jpeg", "ads-management-5.jpeg", "ads-management-6.jpeg", "ads-management-7.jpeg"],
