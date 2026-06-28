@@ -1,6 +1,6 @@
 const SITE = {
   brand: {
-    name: "Ninaconsults",
+    name: "Nina Consults",
     tagline: "Digital Growth, Handled for You",
     whatsappNumber: "2348139557610", 
     email: "hello@ninaconsults.org",
