@@ -7,7 +7,7 @@ const SITE = {
   },
 
   globalStats: {
-    businessesHelped: "200+",
+    businessesHelped: "2000+",
     accountsRecovered: "150+",
     cacRegistrations: "100+",
     satisfaction: "98%"
@@ -59,7 +59,7 @@ const SITE = {
         "Expert troubleshooting and support"
       ],
       stats: [
-        { value: "200+", label: "Ads Fixed" },
+        { value: "300+", label: "Ads Fixed" },
         { value: "24-72hrs", label: "Avg. Turnaround" },
         { value: "98%", label: "Success Rate" },
         { value: "100%", label: "Secure Process" }
@@ -89,7 +89,7 @@ const SITE = {
         "Ongoing audience optimisation"
       ],
       stats: [
-        { value: "200+", label: "Audiences Built" },
+        { value: "1000+", label: "Audiences Built" },
         { value: "24hrs", label: "Avg. Setup Time" },
         { value: "98%", label: "Client Satisfaction" },
         { value: "100%", label: "Data-Backed" }
@@ -209,7 +209,7 @@ const SITE = {
         "Professional recovery process"
       ],
       stats: [
-        { value: "200+", label: "Accounts Recovered" },
+        { value: "300+", label: "Accounts Recovered" },
         { value: "24-72hrs", label: "Avg. Recovery Time" },
         { value: "98%", label: "Success Rate" },
         { value: "100%", label: "Secure Process" }
